@@ -63,14 +63,14 @@ body {
 button {
   background-color: #fff;
   border: none;
-  color: #aaa;
+  color: rgb(148, 31, 243);
   cursor: pointer;
   font-size: 16px;
   padding: 15px;
 }
 
 button:hover {
-  color: #222;
+  color: rgb(243, 31, 31);
 }
 
 button:focus {
@@ -80,18 +80,19 @@ button:focus {
 .container .controls button {
   position: absolute;
   left: 35%;
-  top: 50%;
+  top: 90%;
   z-index: 100;
+
 }
 
 .container .controls .down-button {
   transform: translateX(-100%);
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 .container .controls .up-button {
   transform: translateY(-100%);
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
