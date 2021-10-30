@@ -125,8 +125,9 @@ a:visited{
 }
 
 .list {
-    padding: 0 20px;
     color: #86898f;
+    padding: 0 20px;
+    
 }
 
 .list li {
